@@ -29,4 +29,4 @@ $UDPclient.Connect($broadcast,$port)
 [void]$UDPclient.Send($packet, 102)
 }
 
-send-WOL -mac 04-D9-F5-32-B5-2C -ip 10.73.1.72
+send-WOL -mac A4-D9-F5-32-B5-2D -ip 10.10.10.10
