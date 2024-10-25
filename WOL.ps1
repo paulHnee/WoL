@@ -1,17 +1,5 @@
 function Send-WOL
 {
-
-<#
- .SYNOPSIS 
-   Send a WOL packet to a broadcast address
- .PARAMETER mac
-  The MAC address of the device that need to wake up
- .PARAMETER ip
-  The IP address where the WOL packet will be sent to
- .EXAMPLE
-  Send-WOL -mac 00:11:22:33:44:55 -ip 192.168.2.100
-#>
-
 [CmdletBinding()]
 param(
   [Parameter(Mandatory=$True,Position=1)]
